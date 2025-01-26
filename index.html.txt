@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacros y Contenidos de Estudio ICFES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulacros y Contenidos de Estudio ICFES</h1>
+        <nav>
+            <ul>
+                <li><a href="#simulacros">Simulacros</a></li>
+                <li><a href="#contenidos">Contenidos de Estudio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="simulacros">
+        <h2>Simulacros ICFES</h2>
+        <p>Realiza simulacros interactivos para prepararte para la prueba Saber 11º del ICFES.</p>
+        <button onclick="startSimulation()">Iniciar Simulacro</button>
+        <div id="puntaje">
+            <p>Puntaje: <span id="puntajeFinal">0</span></p>
+        </div>
+    </section>
+
+    <section id="contenidos">
+        <h2>Contenidos de Estudio</h2>
+        <p>Aquí encontrarás recursos para estudiar las diferentes áreas del ICFES.</p>
+        <div class="unidad">
+            <h3>Unidad 1: Biomoléculas</h3>
+            <ul>
+                <li>Carbohidratos: función y clasificación</li>
+                <li>Proteínas: función y clasificación</li>
+                <li>Lípidos: función y clasificación</li>
+                <li>Aminoácidos</li>
+                <li>Ácidos nucleicos: función, clasificación y estructura</li>
+            </ul>
+            <button>Ver Contenido</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Simulacros y Contenidos de Estudio ICFES</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

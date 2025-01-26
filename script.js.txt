@@ -1,0 +1,18 @@
+let puntaje = 0;
+
+function startSimulation() {
+    // Simulacro básico, esto es solo un ejemplo
+    const respuestasCorrectas = 100; // Supongamos que todas las respuestas son correctas
+    const totalPreguntas = 100;
+
+    // Función para simular el puntaje (aquí puedes hacer más lógicas según tu contenido)
+    for (let i = 0; i < totalPreguntas; i++) {
+        let respuestaCorrecta = Math.random() > 0.5; // 50% de probabilidad de ser correcta
+        if (respuestaCorrecta) {
+            puntaje++;
+        }
+    }
+
+    // Mostrar el puntaje final
+    document.getElementById("puntajeFinal").innerText = puntaje + "/" + totalPreguntas;
+}
